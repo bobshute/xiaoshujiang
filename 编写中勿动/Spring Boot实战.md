@@ -39,9 +39,11 @@ grammar_cjkRuby: true
 3) 通过AOP和默认习惯进行声明式编程
 4) 使用AOP和模板(Template)减少模块化代码
 Spring所有功能的设计和实现都是基于以上四大原则的.
+### 1.3.1 
 **控制反转:** (IOC-Inversion of Control)
 **依赖注入:** (DI-dependency injection)
-
+在Spring 环境下是等同的,控制翻转是通过依赖注入实现的. 依赖注入指的是容器负责创建对象和维护对象间的依赖关系,而不是通过对象本身负责自己的创建和解决自己的依赖.
+Spring Ioc容器(ApplicationContext)负责创建 Bean,并通过容器精功能类 Bean注入到你需要的 Bean中。 spring提供使用 xml、注解、 Java配置、 groovy配置实现 Bean的创建和注入。
 
 # 2.Spring 常用配置
 # 3.Spring 高级话题
