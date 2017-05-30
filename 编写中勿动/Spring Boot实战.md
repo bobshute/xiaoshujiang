@@ -33,12 +33,14 @@ grammar_cjkRuby: true
 [Spring.io 生态体系请点击查看][1]
 
 ##  1.3 Spring基础配置
-四大原则:
+**四大原则:**
 1) 使用POJO进行轻量级和最小侵入式开发
 2) 通过依赖注入和基于接口编程实现松耦合
 3) 通过AOP和默认习惯进行声明式编程
 4) 使用AOP和模板(Template)减少模块化代码
-
+Spring所有功能的设计和实现都是基于以上四大原则的.
+**控制反转:** (IOC-Inversion of Control)
+**依赖注入:** (DI-dependency injection)
 
 
 # 2.Spring 常用配置
