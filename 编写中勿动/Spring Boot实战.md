@@ -38,7 +38,8 @@ grammar_cjkRuby: true
 2) 通过依赖注入和基于接口编程实现松耦合
 3) 通过AOP和默认习惯进行声明式编程
 4) 使用AOP和模板(Template)减少模块化代码
-5) 
+
+
 
 # 2.Spring 常用配置
 # 3.Spring 高级话题
