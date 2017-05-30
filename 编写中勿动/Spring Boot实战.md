@@ -29,6 +29,8 @@ grammar_cjkRuby: true
 **Spnng-0RM**: 提供对对象/关系映射技术的支持
 **Spring-0XM**:提供对对象/xml映射技术的支持:
 **Spring-JMS**: 提供对 JMS的支持。
+## 1.2 Spring 主要生态
+
 # 2.Spring 常用配置
 # 3.Spring 高级话题
 # 4.Spring mvc基础
