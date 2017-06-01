@@ -1,6 +1,6 @@
 ---
-title: Mysql 绿色版安装,建用户,建库
-tags: 互联网,java,术语,总结,汇总
+title: Mysql 绿色版安装,创建用户,创建数据库
+tags: Mysql,安装,创建用户,创建数据库
 grammar_cjkRuby: true
 ---
 
