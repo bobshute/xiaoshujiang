@@ -13,4 +13,5 @@ grammar_cjkRuby: true
 |jstat|JVM Statistics Monitoring Tool |用于收集HotSpot虚拟机各方面的运行数据|     |
 |jinfo|Configuration Info for java|显示虚拟机配置信息|     |
 |jmap|Memory Map for Java|生成迅疾的内存转储快照|     |
+|jhat|JVM Heap Dump Brower|用于分析heapdump文件,它会建立一个HTTP/HTML服务器,让用户可以在浏览器上查看分析结果     |
 |jstack|Stack Trace for java|显示虚拟机的线程快照 |     |
