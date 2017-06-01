@@ -1,3 +1,8 @@
+---
+title: Mysql 绿色版安装,建用户,建库
+tags: 互联网,java,术语,总结,汇总
+grammar_cjkRuby: true
+---
 
 
 # 1. 绿色版安装主要命令
