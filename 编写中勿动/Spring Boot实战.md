@@ -44,11 +44,19 @@ Spring所有功能的设计和实现都是基于以上四大原则的.
 在Spring 环境下是等同的,控制翻转是通过依赖注入实现的. 依赖注入指的是容器负责创建对象和维护对象间的依赖关系,而不是通过对象本身负责自己的创建和解决自己的依赖.
 **Spring Ioc容器**(ApplicationContext)负责创建 Bean,并通过容器精功能类 Bean注入到你需要的 Bean中。 spring提供使用 xml、注解、 Java配置、 groovy配置实现 Bean的创建和注入。
 **元数据:**  包括  xml配置、注解配置和Java配置. 元数据本身不具备住何可执行的能力, 只能通过外界代码来对这些元数据行解析后通行一些有意义操作。Spring容器解析这些配置元数据进行 Bean初始化、配置和管理依赖。
-声明 Bean的注解:
+*声明 Bean的注解:*
 o   @Component组件,没有明确的角色。
 o   @serv1ce在业务逻輯层( servlce层)使用。
 o   @Repository 在数据访问层( dao层)使用 。
 o   @controller在展现层( MVC→Sprmg MVC)使用 。
+
+*注入 Bean的注解, 一般情况下通用*
+o   @Autowired: Spring提供的注解。
+o   @Inject: JSR-330提供的注解。
+o   @Resource: JSR-250提供的注解。
+
+*常用注解举例*
+o   @Configuration在展现层( MVC→Sprmg MVC)使用 。
 
 
 # 2.Spring 常用配置
