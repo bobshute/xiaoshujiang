@@ -56,7 +56,7 @@ o   @Inject: JSR-330提供的注解。
 o   @Resource: JSR-250提供的注解。
 
 *常用注解举例*
-o   @Configuration在展现层( MVC→Sprmg MVC)使用 。
+o   @Configuration:表明当前类是一个配置类,这个意味着这个类里可能有0个或多个@Bean注解.
 
 
 # 2.Spring 常用配置
