@@ -78,16 +78,10 @@ JoinPoint： 负责条件的每一个lan
 			<version>${spring-framework.version}</version>
 		</dependency>
 		<!-- aspectj支持 -->
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjrt</artifactId>
-			<version>1.8.6</version>
-		</dependency>
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjweaver</artifactId>
-			<version>1.8.5</version>
-		</dependency>
+		//注意,由于pom标准写法占用个篇幅,改用gradle写法.要要代码时修改即可.或查看本书完整代码.
+		org.aspectj:aspectjrt:1.8.6
+	    org.aspectj:aspectjweaver:1.8.5
+		
 <depend
 ```
 
