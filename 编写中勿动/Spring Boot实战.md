@@ -68,6 +68,8 @@ o  @After,@Before,@Around定义建言(Advice),可直接将拦截规则(切点，
 o  @PointCut 拦截规则为切点（PointCut），定义拦截规则。
 JoinPoint： 负责条件的每一个lan
 
+==AOP==
+
 
 
 # 2.Spring 常用配置
