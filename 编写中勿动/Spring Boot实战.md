@@ -49,6 +49,7 @@ o   @Component组件,没有明确的角色。
 o   @service在业务逻輯层( service层)使用。
 o   @Repository 在数据访问层( dao层)使用 。
 o   @controller在展现层( MVC→Sprmg MVC)使用 。
+o   @Component Spring容器管理的Bean。
 
 ***注入 Bean的注解, 一般情况下通用***
 o   @Autowired: Spring提供的注解。
