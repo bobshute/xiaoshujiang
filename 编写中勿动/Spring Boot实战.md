@@ -55,6 +55,7 @@ o   @Component Spring容器管理的Bean。
 o   @Autowired: Spring提供的注解。
 o   @Inject: JSR-330提供的注解。
 o   @Resource: JSR-250提供的注解。
+o   @EnableAspectJAutoProxy: 注解开启Spring对AspectJ的支持.
 
 ***常用注解举例***
 o   @Configuration:表明当前类是一个配置类,这个意味着这个类里可能有0个或多个@Bean注解.
