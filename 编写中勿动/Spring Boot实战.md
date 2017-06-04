@@ -4,7 +4,7 @@ tags:Spring Boot实战
 grammar_cjkRuby: true
 ---
 
-本文为学习Spring Boot实战的学习笔记,本书写的好,但是好记性不如烂笔头,图书购买地址为: https://item.jd.com/11894632.html.
+本文为学习Spring Boot实战的学习笔记,学习了一遍,但是好记性不如烂笔头,图书购买地址为: https://item.jd.com/11894632.html.
 
 # 1.Spring 基础
 ## 1.1 Spring 主要模块
