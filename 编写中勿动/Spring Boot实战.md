@@ -94,6 +94,14 @@ http://www.broadview.com.cn/file/resource/06107806120718615616215922204113700823
 
 # 2.Spring 常用配置
 ## 2.1 Bean的Scope
+Scope描述的是Srping 容器如何新建Bean的实例的.Spring的Scope有:
+1)singleton:
+2)protype
+3)request
+4)session
+5)GlobbalSession
+
+
 o   @Autowired: Spring提供的注解。
 
 # 3.Spring 高级话题
