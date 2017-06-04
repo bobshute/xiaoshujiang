@@ -91,9 +91,10 @@ JoinPoint： 负责条件的每一个lan
 http://www.broadview.com.cn/book/472
 http://www.broadview.com.cn/file/resource/061078061207186156162159222041137008231100137136#
 
-
-
 # 2.Spring 常用配置
+## 2.1 Bean的Scope
+o   @Autowired: Spring提供的注解。
+
 # 3.Spring 高级话题
 # 4.Spring mvc基础
 # 5.Spring Boot基础
